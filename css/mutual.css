@@ -1,5 +1,34 @@
-/*** Farver ***/
+/*** css variabler ***/
+:root {
+  /**farver**/
+  --primary: #002855;
+  --secondary: #004491;
+  --accent: #fcc74d;
+  --grey: #ededed;
+  --white: #fffbfb;
 
-/*** Fonte ***/
+  /** font size **/
+  --h1mobil: 2rem;
+  --h1desktop: 2.5rem;
 
-/*** margin ***/
+  --h2mobil: 1.75rem;
+  --h2desktop: 2rem;
+
+  --h3mobil: 1.5rem;
+  --h3desktop: 1.75rem;
+
+  --pmobil: 0.9375rem;
+  --pdesktop: 1rem;
+
+  --minitekstmobil: 0.8125rem;
+  --minitekstdesktop: 0.875rem;
+
+  /*** css variabl space ***/
+  --space-xxs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-xxl: 6rem;
+}
