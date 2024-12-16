@@ -145,7 +145,7 @@ nav {
 }
 /*******/
 
-h2 {
+/* h2 {
   font-size: var(--h2mobil);
   font-family: "Figtree", sans-serif;
   color: var(--primary);
@@ -173,7 +173,7 @@ p {
   font-size: var(--pmobil);
   margin-bottom: var(--space-sm);
   font-family: "Figtree", sans-serif;
-}
+} */
 
 img {
   width: 100%;
@@ -182,14 +182,14 @@ img {
   display: block;
 }
 
-body {
+/* body {
   background-color: var(--white);
 }
 
 main {
   margin-left: var(--space-lg);
   margin-right: var(--space-lg);
-}
+} */
 
 /* .container {
   display: grid;
@@ -301,7 +301,7 @@ main {
     max-width: 600px; /* Maksimal bredde for linjen */
   }
 
-  h2 {
+  /* h2 {
     font-size: var(--h2desktop);
   }
 
@@ -320,7 +320,7 @@ main {
   main {
     margin-left: var(--space-xl);
     margin-right: var(--space-xl);
-  }
+  } */
 
   .padding {
     padding-top: 7rem;

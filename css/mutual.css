@@ -6,6 +6,7 @@
   --accent: #fcc74d;
   --grey: #ededed;
   --white: #fffbfb;
+  --black: RGB(0, 0, 0);
 
   /** font size **/
   --h1mobil: 2rem;
@@ -17,8 +18,11 @@
   --h3mobil: 1.5rem;
   --h3desktop: 1.75rem;
 
+  --h4mobil: 1.2rem;
+  --h4desktop: 1.5rem;
+
   --pmobil: 0.9375rem;
-  --pdesktop: 1rem;
+  --pdesktop: 1.2rem;
 
   --minitekstmobil: 0.8125rem;
   --minitekstdesktop: 0.875rem;
