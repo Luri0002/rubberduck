@@ -1,3 +1,110 @@
 main {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+img {
+  width: 100%;
+  border-radius: 20px;
+}
+#overskrift {
+  color: var(--primary);
+  font-family: "Figtree", serif;
+  font-size: var(--h2mobil);
+  margin-top: 5%;
+}
+#underoverskrift {
+  color: var(--primary);
+  font-family: "Inter", sans-serif;
+  font-size: var(--h3mobil);
+}
+.knap_loka {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.booknu_knap_accent {
   width: 100px;
+}
+
+@media (max-width: 800px) {
+  .kontakt_billede_slet {
+    display: none;
+  }
+}
+
+#graa {
+  background-color: var(--grey);
+  display: grid;
+  border-radius: 20px;
+  margin-inline: 20px;
+  text-align: center;
+}
+
+#venstre_mid textarea,
+button,
+input {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  margin-inline: 40px;
+  justify-content: center;
+}
+
+#sociale_medier {
+  text-align: center;
+  margin-top: 20px;
+}
+.billede2 {
+  margin-top: 5%;
+  margin-inline: 20px;
+}
+
+#hoejre_mid {
+  background-color: var(--accent);
+  border-radius: 20px;
+  margin-inline: 20px;
+}
+#hoejre_mid h1,
+h2,
+h3,
+h4,
+i {
+  margin-left: 5%;
+  color: var(--primary);
+  font-family: "Inter", sans-serif;
+}
+
+.h2_kontakt {
+  font-size: var(--h3mobil);
+  margin-top: 7%;
+}
+
+.h3_kontakt {
+  font-size: var(--h3mobil);
+  margin-top: 2%;
+}
+
+.h4_kontakt {
+  font-size: var(--pmobil);
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+@media (min-width: 800px) {
+  .top {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 20px;
+  }
+
+  #middle {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 5%;
+  }
 }
