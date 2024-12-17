@@ -50,11 +50,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px;
   background-color: var(--primary);
   z-index: 1000; /** gør indexet højere end alt andet, så den er in front**/
   margin-left: 0;
   margin-right: 0;
+  height: 64px;
 }
 
 .logo img {
