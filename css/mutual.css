@@ -278,3 +278,149 @@ main {
     font-size: 1rem;
   }
 }
+
+/******* Footer ******/
+
+.footer_container {
+  background-color: #002855;
+  letter-spacing: 3px;
+  padding-top: 30px;
+}
+
+.footer_flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.footer_bottom {
+  margin: 10px;
+  padding: 20px;
+}
+
+.footer_section li,
+a,
+h5 {
+  color: #fffbfb;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.footer_section h5 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.footer_section a {
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 25px;
+}
+
+.sociale_medier i {
+  font-size: 30px;
+  color: #fffbfb;
+  letter-spacing: 10px;
+  padding-bottom: 15px;
+}
+
+.kontaktinfo_footer {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.kontaktinfo_footer i {
+  font-size: 10px;
+  color: #fffbfb;
+  margin-top: 13px;
+}
+
+.footer_logo {
+  grid-column: 2/3;
+  grid-row: 1/4;
+}
+
+.footer_logo img {
+  width: 110px;
+  height: 750px;
+}
+
+.footer_bottom p {
+  color: #fffbfb;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  text-align: left;
+}
+
+.kontaktinfo_footer hr {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .footer_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer_logo img {
+    height: 500px;
+    width: 80px;
+    margin-left: 300px;
+    margin-right: 20px;
+  }
+
+  .footer_section a {
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 40px;
+  }
+
+  .footer_section {
+    padding-right: 100px;
+  }
+  .footer_container {
+    padding-top: 40px;
+    padding-inline: 50px;
+  }
+
+  .kontaktinfo_footer hr {
+    background-color: #fffbfb;
+    color: #fffbfb;
+    width: 0.5px;
+    height: 20px;
+  }
+
+  .footer_bottom p {
+    font-size: 15px;
+  }
+
+  .kontaktinfo_footer {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+  }
+
+  .sociale_medier i {
+    font-size: 50px;
+    color: #fffbfb;
+    letter-spacing: 10px;
+    padding-bottom: 15px;
+  }
+  .footer_logo {
+    position: sticky;
+    bottom: 10px;
+    right: 2px;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer_section {
+    padding-left: 30px;
+  }
+
+  .footer_logo {
+    text-align: right;
+  }
+}
