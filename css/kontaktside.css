@@ -39,6 +39,8 @@ img {
   border-radius: 20px;
   margin-inline: 20px;
   text-align: center;
+  margin-top: 5%;
+  margin-bottom: 10%;
 }
 
 #venstre_mid textarea,
@@ -68,6 +70,7 @@ input {
   background-color: var(--accent);
   border-radius: 20px;
   margin-inline: 20px;
+  margin-bottom: 5%;
 }
 #hoejre_mid h1,
 h2,
@@ -107,4 +110,12 @@ i {
     grid-template-columns: 2fr 1fr;
     margin-top: 5%;
   }
+}
+
+#overskrift {
+  font-size: var(--h2desktop);
+}
+
+#underoverskrift {
+  font-size: var(--h3desktop);
 }
