@@ -1,0 +1,154 @@
+img {
+  width: 100%;
+  border-radius: 20px;
+}
+p {
+  color: black;
+}
+
+.and {
+  display: block;
+  margin: auto;
+  width: 151px;
+  height: 151px;
+  aspect-ratio: 1/1;
+}
+
+.topdel {
+  margin-bottom: var(--space-xl);
+}
+
+.topdel img {
+  margin-bottom: var(--space-xl);
+}
+
+.mellem1 {
+  margin: var(--space-xl);
+}
+
+.mellem2 {
+  margin: var(--space-xl);
+}
+
+.bund div h2,
+p {
+  padding: 20px;
+}
+
+.knap_loka {
+  margin: 30px;
+}
+.knap_loka button {
+  display: block;
+  margin: auto;
+}
+
+.bund {
+  margin: var(--space-xl);
+}
+
+@media (min-width: 800px) {
+  .and {
+    width: 302px;
+    height: 302px;
+  }
+
+  .topdel_nedre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+
+  .mellem1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    gap: 40px;
+    padding-top: 20px;
+  }
+
+  .mellem2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    padding-top: 20px;
+  }
+
+  .img_om_os {
+    grid-column: 1/2;
+    /* grid-row: 2/3; */
+  }
+
+  .col_2 {
+    grid-column: 2/3;
+    /* grid-row: 1/4; */
+  }
+
+  .col {
+    /* grid-row: 1/4; */
+  }
+
+  .img_ledelsen {
+    /* grid-row: 2/3; */
+  }
+
+  .bund {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .bund_venstre {
+    background-color: var(--primary);
+    border-radius: 20px;
+    margin-inline: 20px;
+  }
+  .bund_hoejre {
+    background-color: var(--primary);
+    border-radius: 20px;
+    margin-inline: 20px;
+  }
+
+  .bund_overskrift {
+    color: var(--accent);
+  }
+  .bund_tekst {
+    color: var(--white);
+  }
+}
+.topdel {
+  background-color: var(--grey);
+}
+.mellem2 {
+  background-color: var(--grey);
+}
+
+.bund_venstre {
+  background-color: var(--primary);
+  border-radius: 20px;
+  margin-inline: 20px;
+}
+.bund_hoejre {
+  background-color: var(--primary);
+  border-radius: 20px;
+  margin-inline: 20px;
+}
+.bund_overskrift {
+  color: var(--accent);
+}
+.bund_tekst {
+  color: var(--white);
+}
+.overskrift {
+  text-align: center;
+  margin-top: 5%;
+}
+.under_overskrift {
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+.col {
+  margin-top: 5%;
+}
