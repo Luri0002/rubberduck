@@ -61,6 +61,7 @@ header {
   width: 195px;
   height: 60px;
   padding-left: 1rem;
+  object-fit: unset;
 }
 
 nav {
@@ -345,6 +346,7 @@ h5 {
 .footer_logo img {
   width: 110px;
   height: 750px;
+  object-fit: unset;
 }
 
 .footer_bottom p {
