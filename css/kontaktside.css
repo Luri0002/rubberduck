@@ -109,6 +109,7 @@ i {
     display: grid;
     grid-template-columns: 2fr 1fr;
     margin-top: 5%;
+    margin-bottom: 5%;
   }
 }
 
