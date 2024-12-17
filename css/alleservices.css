@@ -6,62 +6,12 @@
 }
 /*****************/
 
-/* h2 {
-  font-size: var(--h2mobil);
-  font-family: "Figtree", sans-serif;
-  color: var(--primary);
-  margin-top: var(--space-xl);
-}
-
-h3 {
-  font-size: var(--h3mobil);
-  margin-bottom: var(--space-xl);
-  font-family: "Figtree", sans-serif;
-  font-weight: 400;
-  color: var(--primary);
-}
-
-h4 {
-  font-size: var(--h4mobil);
-  color: var(--white);
-  margin-bottom: var(--space-xxs);
-  font-family: "Figtree", sans-serif;
-}
-
-p {
-  color: var(--white);
-  line-height: 1.6;
-  font-size: var(--pmobil);
-  margin-bottom: var(--space-sm);
-  font-family: "Figtree", sans-serif;
-} */
-
 img {
   width: 100%;
   height: auto;
   border-radius: 40px;
   display: block;
 }
-
-/* body {
-  background-color: var(--white);
-}
-
-main {
-  margin-left: var(--space-lg);
-  margin-right: var(--space-lg);
-} */
-
-/* .container {
-  display: grid;
-  gap: 2rem;
-} */
-
-/* .service_item {
-  background-color: var(--secondary);
-  border-radius: 40px;
-  padding: 4rem 2rem 2rem 2rem;
-} */
 
 .service_item_primary {
   background-color: var(--primary);
@@ -93,71 +43,36 @@ main {
   margin-bottom: var(--space-lg);
 }
 
-.img-wrapper {
-  height: 300px; /* Højde på containeren */
-  width: 100%; /* Gør containeren bred nok til at fylde skærmen */
-  overflow: hidden; /* Skjuler det, der går uden for containeren */
-  border-radius: 40px; /* Rundede hjørner på containeren */
-  position: relative; /* Referencepunkt for absolut positionering */
+.indvendig_gap_m {
   margin-bottom: var(--space-lg);
 }
-
-/* .img1 {
-  position: absolute;
-  width: 105%; 
-  height: auto; 
-  object-fit: cover; 
-  top: -16%;
-  left: -5%;
-} */
 
 .img1 {
   border-radius: 40px; /* Rundede hjørner på containeren */
   align-self: stretch;
   object-fit: cover;
+  height: 300px;
 }
-
-/* .img2 {
-  position: absolute;
-  width: auto;
-  height: 120%; 
-  object-fit: cover;
-  top: -19%;
-  left: -20%;
-} */
 
 .img2 {
   border-radius: 40px; /* Rundede hjørner på containeren */
   align-self: stretch;
   object-fit: cover;
+  height: 300px;
 }
-
-/* .img3 {
-  width: 100%; 
-  height: 100%; 
-  object-fit: cover;
-} */
 
 .img3 {
   border-radius: 40px; /* Rundede hjørner på containeren */
   align-self: stretch;
   object-fit: cover;
+  height: 300px;
 }
-
-/* .img4 {
-  position: absolute;
-  width: 110%;
-  height: auto;
-  object-fit: cover; 
-  top: -53%;
-  left: 1%;
-  transform: scale(1.4); 
-} */
 
 .img4 {
   border-radius: 40px; /* Rundede hjørner på containeren */
   align-self: stretch;
   object-fit: cover;
+  height: 300px;
 }
 
 .booknu_knap_accent {
@@ -181,31 +96,13 @@ main {
 }
 
 @media (min-width: 800px) {
+  .indvendig_gap_m {
+    margin-bottom: 0;
+  }
+
   .linjelængde {
-    /* margin-bottom: 2rem; */
     max-width: 600px; /* Maksimal bredde for linjen */
   }
-
-  /* h2 {
-    font-size: var(--h2desktop);
-  }
-
-  h3 {
-    font-size: var(--h3desktop);
-  }
-
-  h4 {
-    font-size: var(--h4desktop);
-  }
-
-  p {
-    font-size: var(--pdesktop);
-  }
-
-  main {
-    margin-left: var(--space-xl);
-    margin-right: var(--space-xl);
-  } */
 
   .padding {
     padding-top: 7rem;
@@ -225,41 +122,22 @@ main {
     gap: 2rem;
   }
 
-  .img-wrapper {
-    height: 400px; /* Højde på containeren */
-    width: 100%; /* Gør containeren bred nok til at fylde skærmen */
-    overflow: hidden; /* Skjuler det, der går uden for containeren */
-    border-radius: 40px; /* Rundede hjørner på containeren */
-    position: relative; /* Referencepunkt for absolut positionering */
-  }
-
-  /* .img1 {
-    position: absolute; 
-    width: 105%; 
-    height: auto; 
-    object-fit: cover; 
-    top: -5%;
-    left: -5%;
-  } */
-
   .grid_1fr_4fr {
     display: grid;
     grid-template-columns: 1fr 4fr;
     gap: 2rem;
   }
 
-  /* .img2 {
-    position: absolute;
-    width: 110%; 
-    height: auto; 
-    object-fit: cover; 
-    top: -61%;
-    left: -10%;
-  } */
-
   .grid_1-1-1 {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     gap: 2rem;
+  }
+
+  .img1,
+  .img2,
+  .img3,
+  .img4 {
+    height: 400px;
   }
 }
