@@ -56,6 +56,14 @@ p {
   }
 }
 
+.lottie {
+  width: 100%;
+  height: 100%;
+  top: -13%;
+  left: -1%;
+  position: absolute;
+}
+
 .hero_billede {
   position: relative;
   object-fit: cover;
@@ -64,7 +72,7 @@ p {
 .hero_tekst {
   text-align: center;
   position: absolute;
-  top: 2%;
+  top: 13%;
   padding: 7px;
   padding-inline: 30px;
   border-radius: 15px;
@@ -79,7 +87,7 @@ p {
 .hero_tekst_baggrund {
   text-align: center;
   position: absolute;
-  top: 2%;
+  top: 13%;
   padding: 7px;
   padding-inline: 30px;
   border-radius: 15px;
@@ -310,6 +318,38 @@ p {
 
   .hero_tekst_baggrund {
     display: none;
+  }
+
+  .lottie {
+    width: 100%;
+    height: 100%;
+    top: 38%;
+    left: -1%;
+    position: absolute;
+  }
+
+  .hero_tekst {
+    text-align: center;
+    position: absolute;
+    top: 13%;
+    padding: 7px;
+    padding-inline: 30px;
+    border-radius: 15px;
+    background-size: 50px;
+    align-items: center;
+  }
+
+  .hero_tekst_baggrund {
+    text-align: center;
+    position: absolute;
+    top: 13%;
+    padding: 7px;
+    padding-inline: 30px;
+    border-radius: 15px;
+    background-size: 50px;
+    background-color: var(--primary);
+    opacity: 50%;
+    align-items: center;
   }
 }
 
