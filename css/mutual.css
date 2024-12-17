@@ -285,6 +285,9 @@ main {
   background-color: #002855;
   letter-spacing: 3px;
   padding-top: 30px;
+  font-family: "Figtree", sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .footer_flex {
