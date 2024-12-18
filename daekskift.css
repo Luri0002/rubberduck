@@ -121,7 +121,7 @@ main p {
 }
 
 .billede_container {
-  background-image: url(../img/jz_img_52.webp);
+  background-image: url(img/jz_img_52.webp);
   background-size: cover;
 }
 
@@ -337,7 +337,7 @@ main p {
 }
 
 .tekstsection3 ul li {
-  list-style-image: url(../img/Ellipse\ 9.png);
+  list-style-image: url(img/ellipse9.png);
   margin-top: 25px;
   margin-bottom: 10px;
 }
@@ -365,7 +365,7 @@ main p {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 10px;
-  background-image: url(/img/x.erhvervsaftale.webp);
+  background-image: url(img/x.erhvervsaftale.webp);
   height: 650px;
   background-attachment: fixed;
   background-position: center;
