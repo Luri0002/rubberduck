@@ -17,6 +17,7 @@ img {
 h1 {
   font-size: var(--h1mobil);
   color: var(--primary);
+  font-family: ;
 }
 
 h2 {
@@ -68,7 +69,7 @@ p {
   height: 100%;
 }
 
-.titel_underoverskrift{
+.titel_underoverskrift {
   font-size: 1rem;
 }
 .lottie {
@@ -88,7 +89,7 @@ p {
 .hero_tekst {
   text-align: center;
   position: absolute;
-top: 26%;
+  top: 26%;
   padding: 7px;
   padding-inline: 30px;
   border-radius: 15px;
@@ -104,7 +105,7 @@ top: 26%;
 .hero_tekst_baggrund {
   text-align: center;
   position: absolute;
-top: 26%;
+  top: 26%;
   padding: 7px;
   padding-inline: 30px;
   border-radius: 15px;
@@ -135,7 +136,7 @@ top: 26%;
 
 .hero_knap {
   position: absolute;
-top: 73%;
+  top: 73%;
   left: 37%;
 }
 
@@ -160,7 +161,7 @@ top: 73%;
   border-radius: 15px;
   font-size: var(--pmobil);
   text-decoration: none;
-   font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .pil:hover {
@@ -332,7 +333,7 @@ top: 73%;
   .lottie {
     width: 100%;
     height: 100%;
-  top: 29%;
+    top: 29%;
     left: 16%;
     position: absolute;
   }
@@ -340,8 +341,8 @@ top: 73%;
   .hero_tekst {
     text-align: center;
     position: absolute;
-top: 18%;
-   left: 25%;
+    top: 18%;
+    left: 25%;
     padding: 75px;
     padding-inline: 5px;
     border-radius: 48px;
@@ -350,20 +351,20 @@ top: 18%;
     width: 50%;
   }
 
- .accent {
-  color: var(--accent);
-  font-size: 89px;
-}
+  .accent {
+    color: var(--accent);
+    font-size: 89px;
+  }
 
-.titel_underoverskrift{
-  font-size: 2rem;
-}
+  .titel_underoverskrift {
+    font-size: 2rem;
+  }
 
   .hero_tekst_baggrund {
     text-align: center;
     position: absolute;
-top: 18%;
-   left: 25%;
+    top: 18%;
+    left: 25%;
     padding: 75px;
     padding-inline: 5px;
     border-radius: 48px;
@@ -372,7 +373,6 @@ top: 18%;
     width: 50%;
     /* width: 40%; */
   }
-  
 
   .hero_pil {
     background-color: var(--accent);
@@ -383,7 +383,7 @@ top: 18%;
     padding: 13px;
     padding-inline: 46px;
     border-radius: 15px;
-    font-family: fig;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: var(--pmobil);
     text-decoration: none;
   }
@@ -398,10 +398,6 @@ top: 18%;
     top: 76%;
     left: 45%;
   }
-
-  }
-
- 
 }
 
 /***** slide ****/
