@@ -233,7 +233,7 @@ p {
   line-height: 1.6;
   font-size: var(--pmobil);
   margin-bottom: var(--space-sm);
-  font-family: "Figtree", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
