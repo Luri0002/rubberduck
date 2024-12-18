@@ -265,6 +265,18 @@ main p {
   }
 }
 
+@media (max-width: 800px) {
+  iframe {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media (min-width: 800px) {
+  .tekst_video {
+    padding-inline: 0;
+  }
+}
 .section2 {
   background-color: lightgray;
   padding-inline: 50px;
