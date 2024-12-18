@@ -120,9 +120,11 @@ main p {
   border-radius: 30px;
 }
 
-.billede_container {
-  background-image: url(img/jz_img_52.webp);
-  background-size: cover;
+.billede_container img {
+  align-self: stretch;
+  object-fit: cover;
+  height: 700px;
+  border-radius: 30px;
 }
 
 .boks1 {
@@ -215,6 +217,12 @@ main p {
   }
   .grid1_1_1_1 div {
     margin-top: 20px;
+  }
+
+  .billede_container img {
+    align-self: stretch;
+    object-fit: cover;
+    height: 200px;
   }
 }
 
