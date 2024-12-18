@@ -68,7 +68,9 @@ p {
   height: 100%;
 }
 
-
+.titel_underoverskrift{
+  font-size: 1rem;
+}
 .lottie {
   width: 100%;
   height: 100%;
@@ -86,7 +88,7 @@ p {
 .hero_tekst {
   text-align: center;
   position: absolute;
-  top: 13%;
+top: 26%;
   padding: 7px;
   padding-inline: 30px;
   border-radius: 15px;
@@ -96,13 +98,13 @@ p {
 
 .accent {
   color: var(--accent);
-  font-size: 89px;
+  /* font-size: 89px; */
 }
 
 .hero_tekst_baggrund {
   text-align: center;
   position: absolute;
-  top: 13%;
+top: 26%;
   padding: 7px;
   padding-inline: 30px;
   border-radius: 15px;
@@ -121,7 +123,7 @@ p {
   padding: 13px;
   padding-inline: 38px;
   border-radius: 15px;
-  font-family: fig;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: var(--pmobil);
   text-decoration: none;
 }
@@ -134,7 +136,7 @@ p {
 .hero_knap {
   position: absolute;
 top: 73%;
-  left: 40%;
+  left: 37%;
 }
 
 .grid2_4 {
@@ -156,9 +158,9 @@ top: 73%;
   padding: 7px;
   padding-inline: 30px;
   border-radius: 15px;
-  font-family: "Figtree", sans-serif;
   font-size: var(--pmobil);
   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 .pil:hover {
@@ -330,8 +332,8 @@ top: 73%;
   .lottie {
     width: 100%;
     height: 100%;
-    top: 38%;
-    left: -1%;
+  top: 29%;
+    left: 16%;
     position: absolute;
   }
 
@@ -339,32 +341,38 @@ top: 73%;
     text-align: center;
     position: absolute;
 top: 18%;
-   left: 29%;
+   left: 25%;
     padding: 75px;
     padding-inline: 5px;
     border-radius: 48px;
     background-size: 50px;
     align-items: center;
-    width: 40%;
+    width: 50%;
   }
-  }
+
+ .accent {
+  color: var(--accent);
+  font-size: 89px;
+}
+
+.titel_underoverskrift{
+  font-size: 2rem;
+}
 
   .hero_tekst_baggrund {
     text-align: center;
     position: absolute;
-  top: 18%;
+top: 18%;
+   left: 25%;
     padding: 75px;
     padding-inline: 5px;
     border-radius: 48px;
-    background-size: 59px;
-    background-color: var(--primary);
+    background-size: 50px;
     align-items: center;
-    display: grid;
-    font-size: 2rem;
-   left: 29%;
-    width: 40%;
+    width: 50%;
+    /* width: 40%; */
   }
-  }
+  
 
   .hero_pil {
     background-color: var(--accent);
@@ -390,6 +398,10 @@ top: 18%;
     top: 76%;
     left: 45%;
   }
+
+  }
+
+ 
 }
 
 /***** slide ****/
